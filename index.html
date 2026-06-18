@@ -40,6 +40,27 @@
   <meta name="twitter:description" content="Three daily word puzzles in one vintage newspaper: Classic, Semantic, and Bridge. One streak, fresh every day.">
   <meta name="twitter:image" content="https://gazettle.app/icons/Icon-512.png">
 
+  <!-- Canonical + structured data: defend the brand SERP (people who hear
+       "Gazettle" then search for it). VideoGame schema helps the rich result.
+       Mirror of gazettle/web/index.html; reproduced by the next flutter build. -->
+  <link rel="canonical" href="https://gazettle.app/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Gazettle",
+    "alternateName": "Gazettle: Daily Word Puzzles",
+    "url": "https://gazettle.app/",
+    "image": "https://gazettle.app/icons/Icon-512.png",
+    "description": "Three daily word puzzles in one vintage newspaper: guess by letters (Classic), by meaning (Semantic), or build the word chain (Bridge). Free, offline, no account.",
+    "applicationCategory": "GameApplication",
+    "genre": "Word puzzle",
+    "operatingSystem": "iOS, Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Person", "name": "ckoyuncu" }
+  }
+  </script>
+
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
