@@ -22,9 +22,11 @@
   <meta name="theme-color" content="#F4E8D4">
 
   <!-- iOS Smart App Banner: shows a native "Gazettle / GET" banner in Safari on
-       iPhone/iPad, pointing at the App Store listing. NOTE: add ", app-argument=<deep-link>"
-       once the web routes to a specific puzzle, so the banner deep-links into the app. -->
-  <meta name="apple-itunes-app" content="app-id=6778612419">
+       iPhone/iPad, pointing at the App Store listing. The app-argument is handed to
+       the app on "OPEN" (already-installed users tapping a shared gazettle.app link);
+       Universal Links activate once a build ships the Associated Domains entitlement
+       (see /.well-known/apple-app-site-association). New installs convert via "GET". -->
+  <meta name="apple-itunes-app" content="app-id=6778612419, app-argument=https://gazettle.app/">
 
   <!-- Open Graph / Twitter: how a shared Gazettle link previews in iMessage,
        Twitter/X, Discord, Facebook. The share loop is the main growth lever, so
