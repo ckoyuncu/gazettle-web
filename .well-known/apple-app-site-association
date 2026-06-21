@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "PV948JXA32.com.gazettle.app",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
