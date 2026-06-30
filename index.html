@@ -34,15 +34,16 @@
   <meta property="og:title" content="Gazettle: Daily Word Puzzles">
   <meta property="og:description" content="Three daily word puzzles in one vintage newspaper: Classic, Semantic, and Bridge. One streak, fresh every day.">
   <meta property="og:url" content="https://gazettle.app/">
-  <meta property="og:image" content="https://gazettle.app/icons/Icon-512.png">
+  <meta property="og:image" content="https://gazettle.app/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Gazettle: Daily Word Puzzles">
   <meta name="twitter:description" content="Three daily word puzzles in one vintage newspaper: Classic, Semantic, and Bridge. One streak, fresh every day.">
-  <meta name="twitter:image" content="https://gazettle.app/icons/Icon-512.png">
+  <meta name="twitter:image" content="https://gazettle.app/og-card.png">
 
   <!-- Canonical + structured data: defend the brand SERP (people who hear
-       "Gazettle" then search for it). VideoGame schema helps the rich result.
-       Mirror of gazettle/web/index.html; reproduced by the next flutter build. -->
+       "Gazettle" then search for it). VideoGame schema helps the rich result. -->
   <link rel="canonical" href="https://gazettle.app/">
   <script type="application/ld+json">
   {
@@ -74,6 +75,20 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <!-- Crawlable fallback for search engines: the app renders client-side via
+       JS, so this gives Google real, indexable content + a link. Users with JS
+       never see it. -->
+  <noscript>
+    <h1>Gazettle: Daily Word Puzzles</h1>
+    <p>Gazettle is three daily word puzzles in one calm, vintage-newspaper app:
+      <strong>Classic</strong> (guess the hidden five-letter word),
+      <strong>Semantic</strong> (guess by meaning, not letters), and
+      <strong>Bridge</strong> (build a word chain from a start word to a target).
+      One streak across all three, a fresh puzzle every day. Free, works offline,
+      no account, no ads, no tracking.</p>
+    <p>Get the iOS app:
+      <a href="https://apps.apple.com/app/id6778612419">Gazettle on the App Store</a>.</p>
+  </noscript>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 {
-    "name": "Puzzlecraft",
-    "short_name": "Puzzlecraft",
+    "name": "Gazettle: Daily Word Puzzles",
+    "short_name": "Gazettle",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F4E8D4",
     "theme_color": "#F4E8D4",
-    "description": "A handcrafted word puzzle experience with vintage newspaper aesthetics",
+    "description": "Three daily word puzzles in one vintage newspaper app: Classic, Semantic, and Bridge.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
